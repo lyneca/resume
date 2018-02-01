@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Raleway:300|RobotoMono');
+
+body {
+	font-family: 'Lato', sans-serif;
+	/* background-color: #F7FFF6; */
+	background-color: white;
+	color: #1E152A;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* color: #BFBDC1; */
+	color: #40476D;
+
+}
+
+h2 {
+	padding: 10px;
+	margin-top: 0;
+	background-color: #BEE3DB;
+}
+
+h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+p {
+	margin-top: 0px;
+}
+
+div.header {
+	/* background-color: #40476D; */
+	padding: 10px;
+}
+
+span.contact {
+	font-family: 'Roboto Mono', monospace;
+	color: #577590;
+	font-size: 12px;
+}
+
+.contact > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+div.content {
+	padding: 10px;
+	columns: auto 2;
+	column-rule: 1px dotted #DDDDDD;
+	column-gap: 20px;
+	-webkit-column-break-inside: avoid;
+	/* background-color: #F0F0FF; */
+}
+
+hr {
+	display: none;
+	border-color: #577590;
+	border-style: solid;
+}
+
+ul {
+	padding-left: 0;
+	padding-bottom: 0px;
+	margin-top: 5px;
+}
+
+ul.projects > li {
+	margin-bottom: 17px;
+}
+
+li {
+	list-style: none;
+	/* background-color: #C0C0EF; */
+	/* padding: 3px; */
+	margin-bottom: 10px;
+}
+
+li.desc {
+	padding-left: 25px;
+}
+
+span.lang {
+	width: 100px;
+	display: inline-block;
+}
+
+div.range {
+	display: inline-block;
+	height: 20px;
+	background-color: #7798AB;
+}
+
+div.five {
+	width: 225px;
+}
+
+div.four {
+	width: 180px;
+	border-right: 45px solid #D0D0FF;
+}
+
+div.three {
+	width: 135px;
+	border-right: 90px solid #D0D0FF;
+}
+
+div.two {
+	width: 90px;
+	border-right: 135px solid #D0D0FF;
+}
+
+div.one {
+	width: 45px;
+	border-right: 180px solid #D0D0FF;
+}
+
+div.block {
+	display: block;
+	page-break-inside: avoid;
+	padding: 0;
+	margin-bottom: 10px;
+	background-color: #F0F0FF;
+}
+div.inner {
+	padding: 10px;
+}
+
+i.light {
+	margin-left: 5px;
+	color: #C0C0FF;
+	float: right;
+}
+
+span.date {
+	float: right;
+	color: #7798AB;
+	font-size: 15px;
+	font-variant: small-caps;
+}
+
+span.avg {
+	margin-left: 10px;
+	font-variant: small-caps;
+}
+
+code.project::before {
+	content: "github.com/lyneca/";
+	color: #7798AB;
+}
