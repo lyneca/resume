@@ -1,11 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400|Raleway:300|RobotoMono');
 
 body {
+	color: #2d3142;
+	background-color: white;
+}
+
+h1 {
+	color: #40476D;
+}
+
+h2 {
+	background-color: #a8d0db;
+    color: #2d3142;
+    font-size: 22px;
+}
+
+.section-icon {
+    float: right;
+}
+
+span.contact {
+	color: #577590;
+}
+
+hr {
+	border-color: #577590;
+}
+
+code.project::before {
+	content: "github.com/lyneca/";
+	color: #7798AB;
+}
+
+code.heroku::before {
+	content: "https://";
+	color: #7798AB;
+}
+
+code.heroku::after {
+    content: ".herokuapp.com";
+	color: #7798AB;
+}
+
+body {
 	font-family: 'Lato', sans-serif;
 	/* background-color: #F7FFF6; */
-	background-color: white;
-	color: #1E152A;
 	padding: 10px;
+    padding-top: 0;
 }
 
 h1, h2, h3 {
@@ -18,20 +59,17 @@ h1 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	/* color: #BFBDC1; */
-	color: #40476D;
 
 }
 
 h2 {
 	padding: 10px;
 	margin-top: 0;
-	background-color: #BEE3DB;
 }
 
 h3 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-
 }
 
 p {
@@ -45,7 +83,6 @@ div.header {
 
 span.contact {
 	font-family: 'Roboto Mono', monospace;
-	color: #577590;
 	font-size: 12px;
 }
 
@@ -61,11 +98,14 @@ div.content {
 	column-gap: 20px;
 	-webkit-column-break-inside: avoid;
 	/* background-color: #F0F0FF; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex-stretch: 1; */
 }
 
 hr {
 	display: none;
-	border-color: #577590;
 	border-style: solid;
 }
 
@@ -90,9 +130,13 @@ li.desc {
 	padding-left: 25px;
 }
 
-span.lang {
-	width: 100px;
+div.lang {
+    flex-grow: 1;
 	display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    background-color: #b7d8e1;
+    text-align: center;
 }
 
 div.range {
@@ -130,10 +174,16 @@ div.block {
 	page-break-inside: avoid;
 	padding: 0;
 	margin-bottom: 10px;
-	background-color: #F0F0FF;
+	background-color: #e1f0ff;
 }
 div.inner {
 	padding: 10px;
+}
+
+div.skills {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
 }
 
 i.light {
@@ -154,7 +204,7 @@ span.avg {
 	font-variant: small-caps;
 }
 
-code.project::before {
-	content: "github.com/lyneca/";
-	color: #7798AB;
+a {
+	text-decoration: none;
+	color: inherit;
 }
