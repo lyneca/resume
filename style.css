@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400|Raleway:300|RobotoMono');
  
 @import url('file:///home/lyneca/Documents/resume/blue.css');
-/* @import url('file:///home/lyneca/Documents/resume/wal.css'); */
  
 a {
 	text-decoration: none;
 	color: inherit;
 }
  
+.fa, .fas {
+    font-weight: 600 !important;
+}
  
 body {
 	color: var(--page-fg);
@@ -99,7 +101,7 @@ h1 {
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	margin-bottom: 0px;
+	margin: 0px;
 }
  
  
@@ -145,8 +147,13 @@ p {
     margin-top: 0px;
 }
  
+
+.ach-icon {
+    color: var(--icon-light);
+}
  
 .section-icon {
+    font-size: larger;
 	color: var(--block-title-icon);
 	float: right;
 }
@@ -166,9 +173,11 @@ span.contact {
  
  
 span.date {
+	font-family: 'Lato', sans-serif;
+    font-weight: initial;
 	float: right;
-	color: var(--date);
-	font-size: 15px;
+	color: var(--date) !important;
+	font-size: 15px !important;
 	font-variant: small-caps;
 }
  
@@ -176,12 +185,11 @@ span.date {
 ul {
 	padding-left: 0;
 	padding-bottom: 0px;
+    margin-bottom: 0px;
 	margin-top: 5px;
 }
  
 ul.projects > li {
     margin-bottom: 17px;
 }
- 
- 
  

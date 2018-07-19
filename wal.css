@@ -1,20 +1,19 @@
 @import url("file:///home/lyneca/.cache/wal/colors.css");
 :root {
-	--page-fg:          var(--background);
-	--block-title-fg:   var(--color1);
-	--title:            var(--color1);
-    --light-text:       var(--color2);
-	--contact-fg:       var(--color2);
-	--block-title-bg:   var(--color4);
-    --icon-light:       var(--color5);
-    --column-sep:       var(--color6);
 	--block-bg:         var(--color7);
-    --lang:             var(--color8);
-	--page-bg:          #FFFFFF;
-
 	--block-fg:         var(--page-fg);
+	--block-title-bg:   var(--color4);
+	--block-title-fg:   var(--color7);
 	--block-title-icon: var(--light-text);
-    --date:             var(--light-text);
+	--contact-fg:       var(--color2);
 	--link-text:        var(--light-text);
+	--page-bg:          #FFFFFF;
+	--page-fg:          var(--background);
+	--title:            var(--color1);
+    --column-sep:       var(--color6);
+    --date:             var(--light-text);
+    --icon-light:       var(--color5);
+    --lang:             var(--color8);
+    --light-text:       var(--color2);
 }
 
