@@ -6,9 +6,9 @@
     --light-text:       #7798AB;
 	--block-title-bg:   #BDE3ED;
     --icon-light:       #C0C0FF;
-    --column-sep:       #DDDDDD;
+    --column-sep:       #BDE3ED;
     --lang:             #CBE5ED;
-	--block-bg:         #F0F0FF;
+	--block-bg:         #EAFBFF;
 	--page-bg:          #FFFFFF;
 
 	--block-fg:         var(--page-fg);
