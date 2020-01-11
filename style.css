@@ -1,210 +1,205 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400|Raleway:300|RobotoMono');
- 
-@import url('blue.css');
- 
-a {
-	text-decoration: none;
-	color: inherit;
+ @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* @font-face { */
+    /* font-family: 'Raleway'; */
+    /* src: url('raleway/Raleway-Regular.ttf'); */
+    /* font-weight: 200; */
+/* } */
+
+div.root {
+    font-size: 13px;
+    border: 1px solid rgba(0, 50, 100, 0.2);
+    max-width: 700px;
+    height: 877px;
+    margin: auto;
 }
- 
-.fa, .fas {
-    font-weight: 600 !important;
-}
- 
-body {
-	color: var(--page-fg);
-	background-color: var(--page-bg);
-	font-family: 'Lato', sans-serif;
-	padding: 10px;
-	padding-top: 0;
-}
- 
- 
-code.heroku::after {
-	content: ".herokuapp.com";
-	color: var(--link-text);
-}
- 
- 
-code.heroku::before {
-	content: "https://";
-	color: var(--link-text);
-}
- 
- 
-code.project::before {
-	content: "github.com/lyneca/";
-	color: var(--link-text);
-}
- 
- 
-.contact > a {
-	text-decoration: none;
-	color: inherit;
-}
- 
- 
-div.block {
-	display: block;
-	page-break-inside: avoid;
-	padding: 0;
-	margin-bottom: 10px;
-	color: var(--block-fg);
-	background-color: var(--block-bg);
-}
- 
-div.content {
-	padding: 10px;
-	columns: auto 2;
-	column-rule: 1px dotted var(--column-sep);
-	column-gap: 20px;
-	-webkit-column-break-inside: avoid;
-}
- 
- 
+
 div.header {
-	padding: 10px;
-	border-bottom: 1px dotted var(--column-sep);
-}
- 
- 
-div.inner {
+    color: rgba(0, 50, 100, 0.9);
+    border-bottom: 1px solid rgba(0, 50, 100, 0.2);
     padding: 10px;
-}
- 
-div.inner.exp > p {
-	border-bottom: 1px solid var(--block-title-bg);
-	padding-bottom: 13px;
-	margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
 }
 
-div.inner.exp > p:last-child {
-	border-bottom: none;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
- 
-div.lang {
-	flex-grow: 1;
-	display: inline-block;
-	padding: 5px;
-	margin: 3px;
-	background-color: var(--lang);
-	text-align: center;
+div.bottom-section {
+    padding: 12px;
 }
 
-div.skills {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 4px;
-}
- 
-h1, h2, h3 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	margin: 0px;
-}
- 
-h1 {
-	color: var(--title);
-	margin-top: 10px;
-	margin-bottom: 10px;
-} 
- 
-h2 {
-	background-color: var(--block-title-bg);
-	color: var(--block-title-fg);
-	font-size: 22px;
-	padding: 10px;
-	margin-top: 0;
-}
- 
- 
-h3 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
- 
- 
-hr {
-	display: none;
-	border-style: solid;
-}
- 
- 
-i.light {
-	margin-left: 5px;
-	color: var(--icon-light);
-	float: right;
-}
- 
- 
-li {
-	list-style: none;
-	margin-bottom: 10px;
-}
- 
-li.desc {
-    padding-left: 25px;
-}
- 
- 
-p {
-    margin-top: 0px;
-}
- 
-
-.ach-icon {
-    color: var(--icon-light);
-}
- 
-.section-icon {
-    font-size: larger;
-	color: var(--block-title-icon);
-	float: right;
-}
- 
- 
-span.avg {
-	margin-left: 10px;
-	font-variant: small-caps;
-}
- 
- 
-span.contact {
-	color: var(--contact-fg);
-	font-family: 'Roboto Mono', monospace;
-	font-size: 12px;
-}
- 
- 
-span.date {
-	font-family: 'Lato', sans-serif;
-    font-weight: initial;
-	float: right;
-	color: var(--date) !important;
-	font-size: 15px !important;
-	font-variant: small-caps;
-}
- 
- 
-ul {
-	padding-left: 0;
-	padding-bottom: 0px;
-    margin-bottom: 0px;
-	margin-top: 5px;
-}
- 
-ul.projects > li {
-	margin-bottom: 10px;
-	border-bottom: 1px solid var(--block-title-bg);
-	padding-bottom: 10px;
+div.container {
+    height: 100%;
+    box-sizing: border-box;
+    /* align-content: center;
+    display: flex;
+    flex-flow: column wrap; */
 }
 
-li:last-child {
-	margin-bottom: 0;
+div.header > div.name {
+    font-family: 'Raleway';
+    font-size: 40px;
 }
- 
-ul.projects > li:last-child {
-	border-bottom: none;
+
+div.project-url {
+    margin-bottom: 5px;
+}
+
+div.section.experience {
+    padding-bottom: 11px;
+}
+
+a.link {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: rgba(0, 25, 50, 1);
+    font-size: 19px;
+}
+
+a.link.github::before {
+    content: "github.com/lyneca/";
+    color: rgba(0, 50, 100, 0.5);
+}
+
+a.link.web::before {
+    content: "https://";
+    color: rgba(0, 50, 100, 0.5);
+}
+
+div.contact-list {
+    font-family: 'Fira Code';
+    font-size: 12px;
+    display: grid;
+    width: 55%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+span.contact:not(:first-of-type)::before {
+    /* content: " | " */
+}
+
+div.phone { }
+
+div.email { }
+
+div.linkedin { }
+
+div.github { }
+
+div.section {
+    background-color: #f8fdff;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    width: 333px;
+    padding: 10px;
+    border: 1px solid rgba(0, 50, 100, 0.2);
+    /* margin: 5px; */
+}
+
+i.header-icon {
+    position: absolute;
+    right: 10px;
+    color: rgba(0, 50, 100, 0.5);
+}
+
+div.filler {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Courier', monospace;
+    /* margin-top: 13px; */
+    width: 333px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 3vh;
+    vertical-align: middle;
+}
+
+div.section-header {
+    font-family: 'Raleway';
+    font-size: 24px;
+    padding-left: 0;
+    padding-bottom: 10px;
+    /* margin-bottom: 5px; */
+    color: rgba(0, 50, 100, 0.8);
+    border-bottom: 1px solid rgba(0, 50, 100, 0.2);
+}
+
+div.date-entry,
+div.project,
+div.desc-entry {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.date-entry-text {
+    border-bottom: 1px dashed rgba(0, 50, 100, 0.2);
+}
+
+div.date-entry:last-of-type,
+div.project:last-of-type,
+div.desc-entry:last-of-type {
+    margin-bottom: 0;
+}
+
+div.desc-entry,
+div.project {
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin: 10px 0;
+}
+
+div.desc-entry:first-of-type,
+div.project:first-of-type {
+    margin-top: 0;
+}
+
+div.desc-entry:not(:first-of-type),
+div.project:not(:first-of-type) {
+    border-top: 1px solid rgba(0, 50, 100, 0.2);
+}
+
+span.date-entry-date,
+span.desc-entry-date {
+    color: rgba(0, 50, 100, 0.3);
+    font-variant: small-caps;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-size: smaller;
+}
+
+span.desc-entry-date {
+    top: unset;
+    bottom: -8px;
+}
+
+div.desc-entry-title {
+    font-family: 'Raleway';
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+div.skill-container {
+    margin: 5px -5px -5px -5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+span.skill {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgba(0, 50, 100, 0.2);
+    background-color: #effbff;
+    z-index: 1;
+    flex-grow: 1;
 }

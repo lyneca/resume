@@ -1,0 +1,109 @@
+{
+    "personal": {
+        "name": "Luke Tuthill",
+        "phone": "0402 939 735",
+        "email": "lukemtuthill@gmail.com",
+        "linkedin": "linkedin.com/in/lyneca",
+        "github": "github.com/lyneca"
+    },
+    "university": [
+        {
+            "text": "BCsT at Sydney University",
+            "date": "2017 - 2019"
+        },
+        {
+            "text": "IT Society First Year Rep",
+            "date": "mar 2017 - sep 2017"
+        },
+        {
+            "text": "IT Society Events Coordinator",
+            "date": "sep 2017 - pres"
+        },
+        {
+            "text": "University Tutor - DECO1013",
+            "date": "jul - dec 2018/19"
+        },
+        {
+            "text": "University Tutor - DECO1012",
+            "date": "feb 2019 - pres"
+        }
+    ],
+    "experience": [
+        {
+            "title": "University Tutoring",
+            "text": "Paid tutor for the University of Sydney's Physical Computing and Design Programming course, teaching Arduino programming and design concepts to several classes of 30 first years.",
+            "date": "jul / nov 2018 - pres"
+        },
+        {
+            "title": "Software Developer, CSIRO",
+            "text": "Hired as a casual developer at CSIRO Astronomy and Space Sciences developing and migrating legacy code.",
+            "date": "apr 2018 - july 2019"
+        },
+        {
+            "title": "NCSS Tutor",
+            "text": "Volunteered to mentor, support, and guide high school students at a 9-day intensive cloud computing and robotics summer school.",
+            "date": "jan 2019/20"
+        },
+        {
+            "title": "Zero Robotics",
+            "text": "Volunteered to mentor and support high school students from several schools in an international space-themed virtual robotics competition over a period of six months, involving lecturing to classes of ~30 on subjects such as Git and C.",
+            "date": "aug - jan 2017/18/19"
+        },
+        {
+            "title": "NCSS Challenge",
+            "text": "Volunteered to mentor high school students online in a 5-week Python programming competition.",
+            "date": "aug - sep 2017/18"
+        }
+    ],
+    "skills": [
+        "Python",
+        "Git",
+        "Linux",
+        "HTML/CSS",
+        "Java",
+        "JavaScript",
+        "React",
+        "C",
+        "Arduino",
+        "Rust"
+    ],
+    "achievements": [
+        {
+            "text": "Attained Queen's Scout Award",
+            "date": "aug 2017"
+        },
+        {
+            "text": "Third Place (globally) in Zero Robotics",
+            "date": "jan 2017"
+        },
+        {
+            "text": "Selected as an NCSS returner",
+            "date": "jan 2017"
+        },
+        {
+            "text": "Selected to attend NCSS",
+            "date": "jan 2016"
+        },
+        {
+            "text": "Achieved 82.85 ATAR",
+            "date": "dec 2016"
+        }
+    ],
+    "projects": [
+        {
+            "url": "eidoclock",
+            "type": "github",
+            "desc": "A ReactJS site that shows an offset day/night cycle for an online game."
+        },
+        {
+            "url": "uniplan.herokuapp.com",
+            "type": "web",
+            "desc": "A Python/Bottle project made for Unihack Sydney 2017 that helps students with their assessment timetables, parsed from various university websites."
+        },
+        {
+            "url": "attendance",
+            "type": "github",
+            "desc": "An RFID student-card based attendance-taking using Raspberry Pi Zero Ws, made for use at the University of Sydney."
+        }
+    ]
+}
